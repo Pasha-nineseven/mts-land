@@ -59,7 +59,7 @@ $(document).ready(function() {
 		var $cap = $('.capabilities-slider');
 
         $cap.slick({
-            infinite: false,
+            infinite: true,
             dots: true,
             arrows:true,
             slidesToShow: 4,
@@ -142,11 +142,54 @@ $(document).ready(function() {
 	    });
 
 	    if (totalCount) {
-	    	$('#landing-calc-in__total').text(totalCount.toFixed(3));
+	    	$('#landing-calc-in__total').text(totalCount.toFixed(2));
 	    } else{
 	    	$('#landing-calc-in__total').text(0);
 	    }
-	})
+	});
+
+
+
+
+	$('#popup-form').validate({ // initialize the plugin
+        rules: {
+            EMAIL: {
+                required: true,
+                email: true
+            },
+            PHONE: {
+                required: true,
+                minlength: 5
+            },
+            NAME: {
+                required: true,
+                minlength: 5
+            },
+            NAME2: {
+                required: true,
+                minlength: 5
+            }
+        },
+        messages: {
+		    EMAIL: {
+                required: "Обязательно к заполнению",
+                email: "Пример name@domain.com"
+            },
+            PHONE: {
+                required: "Обязательно к заполнению",
+            },
+            NAME: {
+                required: "Обязательно к заполнению",
+            },
+            NAME2: {
+                required: "Обязательно к заполнению",
+            }
+		 }
+        // submitHandler: function (form) { // for demo
+        //     alert('valid form submitted'); // for demo
+        //     return false; // for demo
+        // }
+    });
 });
 
 

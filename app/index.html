@@ -307,23 +307,26 @@
 											<div class="landing-calc__msg">Укажите количество</div>
 											<div class="landing-calc__item">
 												<div class="landing-calc__label">SMS в сеть МТС</div>
-												<input type="text" placeholder="1000">
+												<input type="text" maxlength="4" id="smsMts" value="0">
 											</div>
 											<div class="landing-calc__item">
 												<div class="landing-calc__label">SMS в другие сети</div>
-												<input type="text" placeholder="100">
+												<input type="text" maxlength="4" id="smsAnother" value="0">
 											</div>
 											<div class="landing-calc__item">
 												<div class="landing-calc__label">SMS за границу</div>
-												<input type="text" placeholder="0">
+												<input type="text" maxlength="4" id="smsAbroad" value="0">
 											</div>
 											<div class="landing-calc__item">
 												<div class="landing-calc__label">Сервисных Viber-сообщений</div>
-												<input type="text" placeholder="1000">
+												<input type="text" maxlength="4" id="serviceViber" value="0">
 											</div>
 											<div class="landing-calc__item">
 												<div class="landing-calc__label">Рекламных Viber-сообщений</div>
-												<input type="text" placeholder="1000">
+												<input type="text" maxlength="4" id="advertisingViber" value="0">
+											</div>
+											<div class="landing-calc__btn">
+												<a href="#" class="btn" id="totalCount">Рассчитать</a>
 											</div>
 										</form>
 									</div>
@@ -331,7 +334,7 @@
 										<div class="landing-calc-in">
 											<div class="landing-calc-in__top">Стоимость всех сообщений</div>
 											<div class="landing-calc-in__total">
-												<span>1380</span> руб.
+												<span id="landing-calc-in__total">0</span> руб.
 											</div>
 										</div>
 									</div>

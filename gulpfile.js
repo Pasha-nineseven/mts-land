@@ -84,14 +84,14 @@ gulp.task('clean', function() {
 
 //IMAGEMIN
 gulp.task('img', function(){
-    return gulp.src('app/img/**/*')
+    return gulp.src('app/img-landing/**/*')
     .pipe(cache(imagemin({
         interlaced:true,
         progrssive: true,
         svgoPlugins: [{removeViewBox: false}],
         use: [pngquant()]
     })))
-    .pipe(gulp.dest('build/img'))
+    .pipe(gulp.dest('build/img-landing'))
 });
 
 //BUILD version

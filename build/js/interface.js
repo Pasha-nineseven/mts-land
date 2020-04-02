@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	flexibility(document.documentElement);
+	/*flexibility(document.documentElement);
 
 	//ACCORDEON
 	$("body").on("click", ".accordeon__link", function(e){
@@ -12,8 +12,8 @@ $(document).ready(function() {
 		setTimeout(function() {
 		 	$('.fs').styler();
 		}, 100)
-		
-	}
+
+	}*/
 
 
 	if ($('#landing-contacts-select').length>0) {

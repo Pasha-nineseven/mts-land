@@ -133,7 +133,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                             <img src="/other/lp-br/build/img-landing/svg/cap10.svg" alt="">
                         </div>
                         <div class="capabilities-txt">
-                            Высокие тарифы
+                            Выгодные тарифы
                         </div>
                     </div>
                     <div class="capabilities-item">
@@ -225,7 +225,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                     <div class="landing-how__item">
                         <div class="landing-how__num"><span>1</span></div>
                         <div class="landing-how__info">
-                            <a href="#form" data-effect="mfp-zoom-in" class="">
+                            <a href="#form" data-effect="mfp-zoom-in" class="textForm">
                                 <?
                                 $APPLICATION->IncludeComponent(
                                     "ns:feedback.form",
@@ -324,7 +324,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                 );
 
                                 ?>
-                            </a>, и с вами свяжется менеджер
+                            </a>, <br> и с вами свяжется менеджер
                         </div>
                     </div>
                     <div class="landing-how__item">

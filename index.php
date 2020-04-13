@@ -23,7 +23,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
             <div class="landing-container">
                 <div class="landing-top__wrap">
                     <div class="landing-top__info">
-                        <h1>Бизнес-рассылки</h1>
+                        <h1>МТС Коммуникатор</h1>
                         <div class="landing-top__txt">
                             Это безопасная, надежная и экономичная платформа, которая обеспечивает бесперебойную и своевременную доставку сообщений по каналам SMS и Viber
                         </div>
@@ -428,7 +428,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                 <h2>Часто задаваемые вопросы</h2>
                 <div class="accordeon">
                     <div class="accordeon__item">
-                        <a href="#" class="accordeon__link">Что такое «МТС Бизнес-рассылки»?</a>
+                        <a href="#" class="accordeon__link">Что такое «МТС Коммуникатор»?</a>
                         <div class="accordeon__info">
                             Это массовая отправка SMS, Viber-уведомлений с расширенной пропускной способностью.
                         </div>
@@ -569,7 +569,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                         <a href="#" class="accordeon__link">Какие полезные функции выполняет платформа?</a>
                         <div class="accordeon__info">
                             <p>
-                                На платформе «МТС Бизнес-рассылки» Вы можете воспользоваться такими полезными функциями, как:
+                                На платформе «МТС Коммуникатор» Вы можете воспользоваться такими полезными функциями, как:
                             </p>
                             <ul>
                                 <li>

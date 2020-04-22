@@ -2,7 +2,10 @@
 $APPLICATION->SetPageProperty("hide_h1", "N");
 $APPLICATION->SetPageProperty("HAS_SIDEBAR", "N");
 $APPLICATION->SetPageProperty("LAYOUT-CLASS", "layout--map layout--landing");
-$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "N"); ?>
+$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "N");
+$APPLICATION->SetTitle("МТС Коммуникатор");
+?>
+
 <?
 $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/style.css' rel='stylesheet'>");
 $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' rel='stylesheet'>");
@@ -103,7 +106,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                             <img src="/other/lp-br/build/img-landing/svg/cap6.svg" alt="">
                         </div>
                         <div class="capabilities-txt">
-                            SMS- рассылка во все сети и за рубеж
+                            SMS-рассылка во все сети и за рубеж
                         </div>
                     </div>
                     <div class="capabilities-item">
@@ -456,7 +459,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                         </div>
                     </div>
                     <div class="accordeon__item">
-                        <a href="#" class="accordeon__link">Сколько стоит SMS-рассылка</a>
+                        <a href="#" class="accordeon__link">SMS и Viber-рассылка</a>
                         <div class="accordeon__info">
                             <div class="table-wrap">
                                 <table>
@@ -530,7 +533,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                     Альфа-номер не должен вводить получателя в заблуждение относительно характера и сути предоставляемых услуг Пользователя, должно позволять определить отправителя данного сообщения;
                                 </li>
                                 <li>
-                                    Альфа-номер должен содержать 11 буквенных латинских символов или комбинации букв латинского алфавита и цифр для отправки сообщений по каналу SMS и не должна превышать 28 символов для отправки сообщений по каналу Viber;
+                                    Альфа-номер должен содержать 11 буквенных латинских символов или комбинации букв латинского алфавита и цифр для отправки сообщений по каналу SMS и не должна превышать 30 символов для отправки сообщений по каналу Viber;
                                 </li>
                                 <li>
                                     Альфа-номер должен использоваться для отправки сообщений с информацией об услугах/товарах/работах только Пользователя:

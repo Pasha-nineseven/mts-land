@@ -1,9 +1,9 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "МТС Коммуникатор");
 $APPLICATION->SetPageProperty("hide_h1", "N");
 $APPLICATION->SetPageProperty("HAS_SIDEBAR", "N");
 $APPLICATION->SetPageProperty("LAYOUT-CLASS", "layout--map layout--landing");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "N");
-$APPLICATION->SetTitle("МТС Коммуникатор");
 ?>
 
 <?

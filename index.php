@@ -3,7 +3,7 @@ $APPLICATION->SetPageProperty("title", "МТС Коммуникатор");
 $APPLICATION->SetPageProperty("hide_h1", "N");
 $APPLICATION->SetPageProperty("HAS_SIDEBAR", "N");
 $APPLICATION->SetPageProperty("LAYOUT-CLASS", "layout--map layout--landing");
-$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "N");
+$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 ?>
 
 <?
@@ -372,10 +372,10 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                 Рекламное сообщение – 0,03 руб.
                             </div>
                             <div class="landing-cost__msg">
-                                Альфа-имя – 0 руб./мес.
+                                Альфа-имя – 0 руб./мес.*
                             </div>
                             <div class="landing-cost__add">
-                                В абонентскую плату включена стоимость сервисных и рекламных сообщений
+                                *Акция до 01.07.2020: -Альфа-имя - 0 руб., далее - 500 руб./мес.<br>В абонентскую плату включена стоимость сервисных и рекламных сообщений
                             </div>
                         </div>
                     </div>

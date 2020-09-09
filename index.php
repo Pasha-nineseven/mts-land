@@ -352,13 +352,13 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                         <div class="landing-cost__inner">
                             <h4>Стоимость SMS-рассылки</h4>
                             <div class="landing-cost__msg">
-                                В сеть МТС – 0,015 руб.
+                                В сеть МТС – 0,019 руб.
                             </div>
                             <div class="landing-cost__msg">
-                                В сети др. операторов – 0,017 руб.
+                                В сети др. операторов – 0,021 руб.
                             </div>
                             <div class="landing-cost__msg">
-                                Сообщение за границу – 0,2 руб.
+                                Сообщение за границу – 0,35 руб.
                             </div>
                         </div>
                     </div>
@@ -372,10 +372,10 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                 Рекламное сообщение – 0,03 руб.
                             </div>
                             <div class="landing-cost__msg">
-                                Альфа-имя – 0 руб./мес.*
+                                Альфа-имя – 550 руб./мес.*
                             </div>
                             <div class="landing-cost__add">
-                                *Акция до 01.07.2020: -Альфа-имя - 0 руб., далее - 500 руб./мес.<br>В абонентскую плату включена стоимость сервисных и рекламных сообщений
+                                *В абонентскую плату включена стоимость сервисных и рекламных сообщений
                             </div>
                         </div>
                     </div>
@@ -471,15 +471,15 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                         <th>Viber</th>
                                     </tr>
                                     <tr>
-                                        <td>в сеть МТС  - 0,015 BYN</td>
+                                        <td>в сеть МТС  - 0,019 BYN</td>
                                         <td>сервисное сообщение - 0,01 BYN</td>
                                     </tr>
                                     <tr>
-                                        <td>в другие сети - 0,017 BYN</td>
+                                        <td>в другие сети - 0,021 BYN</td>
                                         <td>рекламное сообщение - 0,03 BYN</td>
                                     </tr>
                                     <tr>
-                                        <td>в другие страны - 0,2 BYN</td>
+                                        <td>в другие страны - 0,35 BYN</td>
                                         <td>В абонентскую плату включена стоимость сервисных и рекламных сообщений</td>
                                     </tr>
                                 </table>

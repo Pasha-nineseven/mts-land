@@ -117,16 +117,16 @@ $(document).ready(function() {
 		totalCount = 0;
 		$(".landing-calc__item input").each(function(){
 			if ($(this).attr("id") === "smsMts") {
-				var smsMts = $(this).val()*0.015;
+				var smsMts = $(this).val()*0.019;
 				totalCount += +smsMts;
 			}
 			if ($(this).attr("id") == "smsAnother") {
-				var smsAnother = $(this).val()*0.017;
+				var smsAnother = $(this).val()*0.021;
 				totalCount += +smsAnother;
 			}
 
 			if ($(this).attr("id") == "smsAbroad") {
-				var smsAbroad = $(this).val()*0.2;
+				var smsAbroad = $(this).val()*0.35;
 				totalCount += +smsAbroad;
 			}
 
@@ -136,7 +136,7 @@ $(document).ready(function() {
 			}
 
 			if ($(this).attr("id") == "advertisingViber") {
-				var advertisingViber = $(this).val()*0.003;
+				var advertisingViber = $(this).val()*0.03;
 				totalCount += +advertisingViber;
 			}
 	    });

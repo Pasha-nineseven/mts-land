@@ -142,7 +142,7 @@ $(document).ready(function() {
 	    });
 
 	    if (totalCount) {
-	    	$('#landing-calc-in__total').text(totalCount.toFixed(2));
+	    	$('#landing-calc-in__total').text(totalCount.toFixed(3));
 	    } else{
 	    	$('#landing-calc-in__total').text(0);
 	    }

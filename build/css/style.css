@@ -534,8 +534,8 @@ html {
   font-size: 40px;
   font-family: 'corpid-regular'; }
   .landing-calc-in__total span {
-    font-size: 64px;
-    line-height: 48px;
+    font-size: 77px;
+    line-height: 42px;
     font-family: 'corpid-bold';
     font-variant-numeric: lining-nums;
     font-feature-settings: 'lnum';

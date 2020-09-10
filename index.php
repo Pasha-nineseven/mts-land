@@ -30,7 +30,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                         <div class="landing-top__txt">
                             Это безопасная, надежная и экономичная платформа, которая обеспечивает бесперебойную и своевременную доставку сообщений по каналам SMS и Viber
                         </div>
-                        <a href="https://br.mts.by" class="landing-top__btn" target="_blank">Запустить рассылку</a>
+                        <a href="javascript:void(0)" class="landing-top__btn openForm">Подключить</a>
                         <div class="landing-top-consult">
                             <div class="landing-top-consult__icon">
                                 <svg width="37" height="59" viewBox="0 0 37 59" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,7 +187,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                         Уникальное имя отправителя — бесплатно
                                     </li>
                                 </ul>
-                                <a href="https://br.mts.by" class="btn" target="_blank">Запустить рассылку</a>
+                                <a href="javascript:void(0)" class="btn openForm">Подключить</a>
                             </div>
                             <div class="selecting__img m-center">
                                 <img src="/other/lp-br/build/img-landing/content/selecting1.png" alt="">
@@ -209,7 +209,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                         Уникальное имя отправителя — в рамках абонентской платы
                                     </li>
                                 </ul>
-                                <a href="https://br.mts.by" class="btn" target="_blank">Запустить рассылку</a>
+                                <a href="javascript:void(0)" class="btn openForm">Подключить</a>
                             </div>
                             <div class="selecting__img m-left">
                                 <img src="/other/lp-br/build/img-landing/content/selecting2.png" alt="">
@@ -251,7 +251,7 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                                         "FB_TEXT_NAME" => "",
                                         "FB_TEXT_SOURCE" => "PREVIEW_TEXT",
                                         "FORM_ID" => "business_newsletter",
-                                        "IBLOCK_ID" => "50",
+                                        "IBLOCK_ID" => getIblockID('business_newsletter'),
                                         "IBLOCK_TYPE" => "altasib_feedback",
                                         "INPUT_APPEARENCE" => array(
                                             0 => "DEFAULT",
@@ -683,5 +683,6 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
 
     <script src="/other/lp-br/build/js/libs.min.js"></script>
     <script src="/other/lp-br/build/js/interface.js"></script>
+    <script src="/other/lp-br/js/script.js"></script>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

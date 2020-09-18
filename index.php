@@ -382,6 +382,126 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                 </div>
             </div>
         </div>
+        <div class="landing-offers">
+            <div class="landing-container">
+                <h2>Пакетные предложения</h2>
+                <div class="landing-offers__add">
+                    SMS+Viber
+                </div>
+                <div class="offers">
+                    <div class="offers__item">
+                        <div class="offers__in">
+                            <div class="offers__icon">
+                                <img src="/other/lp-br/build/img-landing/svg/offers1.svg" alt="">
+                            </div>
+                            <div class="offers__title">Пакет SMS+Viber Лайт</div>
+                            <div class="offers-list">
+                                <div class="offers-list__item">50 000 SMS + 50 000 Viber</div>
+                                <div class="offers-list__item">альфа-имя включено</div>
+                                <div class="offers-list__item">остаток переносится на 2-й месяц</div>
+                            </div>
+                            <div class="offers__price">
+                                2012
+                                <span>руб.</span>
+                            </div>
+                            <a href="https://www.mts.by/corp/biznes-i-it-resheniya/reklama-i-privlechenie-klientov/sms-rassylka/sms-i-viber/paket-sms-viber-layt/" class="offers__link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="offers__item">
+                        <div class="offers__in">
+                            <div class="offers__icon">
+                                <img src="/other/lp-br/build/img-landing/svg/offers2.svg" alt="">
+                            </div>
+                            <div class="offers__title">Пакет SMS+Viber Медиум</div>
+                            <div class="offers-list">
+                                <div class="offers-list__item">250 000 SMS + 50 000 Viber</div>
+                                <div class="offers-list__item">альфа-имя включено</div>
+                                <div class="offers-list__item">остаток переносится на 2-й месяц</div>
+                            </div>
+                            <div class="offers__price">
+                                3910
+                                <span>руб.</span>
+                            </div>
+                            <a href="https://www.mts.by/corp/biznes-i-it-resheniya/reklama-i-privlechenie-klientov/sms-rassylka/sms-i-viber/paket-sms-viber-medium/" class="offers__link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="offers__item">
+                        <div class="offers__in">
+                            <div class="offers__icon">
+                                <img src="/other/lp-br/build/img-landing/svg/offers3.svg" alt="">
+                            </div>
+                            <div class="offers__title">Пакет SMS+Viber Макси</div>
+                            <div class="offers-list">
+                                <div class="offers-list__item">250 000 SMS + 50 000 Viber</div>
+                                <div class="offers-list__item">альфа-имя включено</div>
+                                <div class="offers-list__item">остаток переносится на 2-й месяц</div>
+                            </div>
+                            <div class="offers__price">
+                                9 200
+                                <span>руб.</span>
+                            </div>
+                            <a href="https://www.mts.by/corp/biznes-i-it-resheniya/reklama-i-privlechenie-klientov/sms-rassylka/sms-i-viber/paket-sms-viber-maksi/" class="offers__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="landing-offers__add">
+                    SMS
+                </div>
+                <div class="offers">
+                    <div class="offers__item">
+                        <div class="offers__in">
+                            <div class="offers__icon">
+                                <img src="/other/lp-br/build/img-landing/svg/offers1.svg" alt="">
+                            </div>
+                            <div class="offers__title">SMS-Пакет 10 000</div>
+                            <div class="offers-list">
+                                <div class="offers-list__item">10 000 SMS</div>
+                                <div class="offers-list__item">остаток переносится на 2-й месяц</div>
+                            </div>
+                            <div class="offers__price">
+                                193
+                                <span>руб.</span>
+                            </div>
+                            <a href="https://www.mts.by/corp/biznes-i-it-resheniya/reklama-i-privlechenie-klientov/sms-rassylka/sms-i-viber/sms-paket-10-000/" class="offers__link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="offers__item">
+                        <div class="offers__in">
+                            <div class="offers__icon">
+                                <img src="/other/lp-br/build/img-landing/svg/offers2.svg" alt="">
+                            </div>
+                            <div class="offers__title">SMS-Пакет 50 000</div>
+                            <div class="offers-list">
+                                <div class="offers-list__item">50 000 SMS</div>
+                                <div class="offers-list__item">остаток переносится на 2-й месяц</div>
+                            </div>
+                            <div class="offers__price">
+                                960
+                                <span>руб.</span>
+                            </div>
+                            <a href="https://www.mts.by/corp/biznes-i-it-resheniya/reklama-i-privlechenie-klientov/sms-rassylka/sms-i-viber/sms-paket-50-000/" class="offers__link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="offers__item">
+                        <div class="offers__in">
+                            <div class="offers__icon">
+                                <img src="/other/lp-br/build/img-landing/svg/offers3.svg" alt="">
+                            </div>
+                            <div class="offers__title">SMS-Пакет 100 000</div>
+                            <div class="offers-list">
+                                <div class="offers-list__item">100 000 SMS</div>
+                                <div class="offers-list__item">остаток переносится на 2-й месяц</div>
+                            </div>
+                            <div class="offers__price">
+                                1 860
+                                <span>руб.</span>
+                            </div>
+                            <a href="https://www.mts.by/corp/biznes-i-it-resheniya/reklama-i-privlechenie-klientov/sms-rassylka/sms-i-viber/sms-paket-100-000/" class="offers__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="landing-calc">
             <div class="landing-container">
                 <h2>Рассчитайте стоимость сообщений</h2>
@@ -392,23 +512,23 @@ $APPLICATION->AddHeadString("<link href='/other/lp-br/build/css/libs.min.css' re
                             <div class="landing-calc__msg">Укажите количество</div>
                             <div class="landing-calc__item">
                                 <div class="landing-calc__label">SMS в сеть МТС</div>
-                                <input type="text" maxlength="4" id="smsMts" placeholder="0">
+                                <input type="text" maxlength="5" id="smsMts" placeholder="0">
                             </div>
                             <div class="landing-calc__item">
                                 <div class="landing-calc__label">SMS в другие сети</div>
-                                <input type="text" maxlength="4" id="smsAnother" placeholder="0">
+                                <input type="text" maxlength="5" id="smsAnother" placeholder="0">
                             </div>
                             <div class="landing-calc__item">
                                 <div class="landing-calc__label">SMS за границу</div>
-                                <input type="text" maxlength="4" id="smsAbroad" placeholder="0">
+                                <input type="text" maxlength="5" id="smsAbroad" placeholder="0">
                             </div>
                             <div class="landing-calc__item">
                                 <div class="landing-calc__label">Сервисных Viber-сообщений</div>
-                                <input type="text" maxlength="4" id="serviceViber" placeholder="0">
+                                <input type="text" maxlength="5" id="serviceViber" placeholder="0">
                             </div>
                             <div class="landing-calc__item">
                                 <div class="landing-calc__label">Рекламных Viber-сообщений</div>
-                                <input type="text" maxlength="4" id="advertisingViber"  placeholder="0">
+                                <input type="text" maxlength="5" id="advertisingViber"  placeholder="0">
                             </div>
                             <div class="landing-calc__btn">
                                 <a href="#" class="btn" id="totalCount">Рассчитать</a>

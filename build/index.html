@@ -433,6 +433,26 @@
 												<div class="landing-calc__label">SMS в другие сети</div>
 												<input type="text" maxlength="5" id="smsAnother" placeholder="0">
 											</div>
+
+
+
+
+											<div class="landing-calc__item">
+												<div class="landing-calc__label">SMS во все сети РБ</div>
+												<input type="text" maxlength="5" id="smsAll" placeholder="0">
+											</div>
+											<style>
+												.landing-calc__item input[type="text"]{
+													transition: opacity .3s ease;
+												}
+												.landing-calc__item input[type="text"]:disabled{
+													opacity: 0.4;
+												}
+											</style>
+
+
+
+
 											<div class="landing-calc__item">
 												<div class="landing-calc__label">SMS за границу</div>
 												<input type="text" maxlength="5" id="smsAbroad" placeholder="0">

@@ -111,6 +111,17 @@ $(document).ready(function() {
 	    return /^\d*$/.test(value);
 	});
 
+	$('#smsAll').on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
+		if(parseInt($(this).val())){
+			$('#smsMts,#smsAnother').prop( "disabled", true );
+		} else {$('#smsMts,#smsAnother').prop( "disabled", false );}
+	});
+	$('#smsMts,#smsAnother').on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
+		if(parseInt($(this).val())){
+			$('#smsAll').prop( "disabled", true );
+		} else {$('#smsAll').prop( "disabled", false );}
+	});
+
 
 	$("body").on("click", "#totalCount", function(e){
 		e.preventDefault();
@@ -131,13 +142,18 @@ $(document).ready(function() {
 			}
 
 			if ($(this).attr("id") == "serviceViber") {
-				var serviceViber = $(this).val()*0.01;
+				var serviceViber = $(this).val()*0.0115;
 				totalCount += +serviceViber;
 			}
 
 			if ($(this).attr("id") == "advertisingViber") {
-				var advertisingViber = $(this).val()*0.03;
+				var advertisingViber = $(this).val()*0.035;
 				totalCount += +advertisingViber;
+			}
+
+			if ($(this).attr("id") == "smsAll") {
+				var smsAll = $(this).val()*0.0204;
+				totalCount += +smsAll;
 			}
 	    });
 

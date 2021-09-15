@@ -1092,6 +1092,17 @@ html {
   top: 12px;
   left: 0;
 }
+.landing-question__item{
+  margin-bottom: 30px;
+}
+.landing-question__item:last-child{
+  margin-bottom: 0;
+}
+
+.landing-att {
+  background: #F2F2F2;
+  padding: 38px 0 55px;
+}
 
 @media screen and (max-width: 1280px) {
   .capabilities-slider .slick-arrow.slick-next {

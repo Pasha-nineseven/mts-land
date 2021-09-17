@@ -1,12 +1,16 @@
 $(document).ready(function() {
-	/*flexibility(document.documentElement);
-
+	$("body").on("click", ".accordeon-top-toggle", function(e){
+		e.preventDefault();
+		$(this).toggleClass('active');
+		$(this).parents('.landing-question__item').find('.accordeon-top').slideToggle();
+	});
 	//ACCORDEON
 	$("body").on("click", ".accordeon__link", function(e){
 		e.preventDefault();
 		$(this).parents('.accordeon__item').toggleClass('active');
 		$(this).next('.accordeon__info').slideToggle();
 	});
+	/*flexibility(document.documentElement);
 	//SELECT-CUSTOM
 	if ($('.fs').length>0) {
 		setTimeout(function() {
